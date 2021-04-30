@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/sherinsugathan.github.io/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/sherinsugathan.github.io/static/js/main.53def9eb.chunk.js",
+    "main.js.map": "/sherinsugathan.github.io/static/js/main.53def9eb.chunk.js.map",
+    "runtime-main.js": "/sherinsugathan.github.io/static/js/runtime-main.6be90de1.js",
+    "runtime-main.js.map": "/sherinsugathan.github.io/static/js/runtime-main.6be90de1.js.map",
+    "static/js/2.85e5358f.chunk.js": "/sherinsugathan.github.io/static/js/2.85e5358f.chunk.js",
+    "static/js/2.85e5358f.chunk.js.map": "/sherinsugathan.github.io/static/js/2.85e5358f.chunk.js.map",
+    "static/js/3.2af77204.chunk.js": "/sherinsugathan.github.io/static/js/3.2af77204.chunk.js",
+    "static/js/3.2af77204.chunk.js.map": "/sherinsugathan.github.io/static/js/3.2af77204.chunk.js.map",
+    "index.html": "/sherinsugathan.github.io/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/sherinsugathan.github.io/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.85e5358f.chunk.js.LICENSE.txt": "/sherinsugathan.github.io/static/js/2.85e5358f.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/sherinsugathan.github.io/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6be90de1.js",
+    "static/js/2.85e5358f.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.53def9eb.chunk.js"
+  ]
+}
