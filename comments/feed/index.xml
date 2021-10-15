@@ -8,10 +8,10 @@
 <channel>
 	<title>
 	Comments for 	</title>
-	<atom:link href="https://sherinsugathan.github.io/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>https://sherinsugathan.github.io</link>
+	<atom:link href="https://sherinsugathan.github.io/index.html/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>https://sherinsugathan.github.io/index.html</link>
 	<description></description>
-	<lastBuildDate>Sat, 09 Oct 2021 21:50:10 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 15 Oct 2021 15:32:32 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>

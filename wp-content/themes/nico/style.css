@@ -30,8 +30,8 @@ Domain Path: /lang
 
 @font-face {
   font-family: 'Lavanderia';
-  src: url("https://sherinsugathan.github.io/wp-content/themes/nico/fonts/lavanderia_sturdy-webfont.eot");
-  src: url("https://sherinsugathan.github.io/wp-content/themes/nico/fonts/lavanderia_sturdy-webfont.eot#iefix") format("embedded-opentype"), url("https://sherinsugathan.github.io/wp-content/themes/nico/fonts/lavanderia_sturdy-webfont.woff") format("woff"), url("https://sherinsugathan.github.io/wp-content/themes/nico/fonts/lavanderia_sturdy-webfont.ttf") format("truetype"), url("https://sherinsugathan.github.io/wp-content/themes/nico/fonts/lavanderia_sturdy-webfont.svg#LavanderiaSturdy") format("svg");
+  src: url("https://sherinsugathan.github.io/index.html/wp-content/themes/nico/fonts/lavanderia_sturdy-webfont.eot");
+  src: url("https://sherinsugathan.github.io/index.html/wp-content/themes/nico/fonts/lavanderia_sturdy-webfont.eot#iefix") format("embedded-opentype"), url("https://sherinsugathan.github.io/index.html/wp-content/themes/nico/fonts/lavanderia_sturdy-webfont.woff") format("woff"), url("https://sherinsugathan.github.io/index.html/wp-content/themes/nico/fonts/lavanderia_sturdy-webfont.ttf") format("truetype"), url("https://sherinsugathan.github.io/index.html/wp-content/themes/nico/fonts/lavanderia_sturdy-webfont.svg#LavanderiaSturdy") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -740,13 +740,13 @@ button:focus {
 
 body {
   background-color: #F3F3F3;
-  background-image: url("https://sherinsugathan.github.io/wp-content/themes/nico/images/bg.png");
+  background-image: url("https://sherinsugathan.github.io/index.html/wp-content/themes/nico/images/bg.png");
   background-repeat: repeat-y;
   background-position: center top;
 }
 
 body.textured {
-  background-image: url("https://sherinsugathan.github.io/wp-content/themes/nico/images/bg-texture.png");
+  background-image: url("https://sherinsugathan.github.io/index.html/wp-content/themes/nico/images/bg-texture.png");
 }
 
 body.alt {
@@ -785,7 +785,7 @@ body.alt {
 .site-intro h2,
 .site-intro p {
   padding: 15px;
-  background: url("https://sherinsugathan.github.io/wp-content/themes/nico/images/pat.png");
+  background: url("https://sherinsugathan.github.io/index.html/wp-content/themes/nico/images/pat.png");
 }
 
 .site-intro h2 {
@@ -1011,7 +1011,7 @@ body.alt {
 }
 
 .textured .footer {
-  background-image: url("https://sherinsugathan.github.io/wp-content/themes/nico/images/texture.jpg");
+  background-image: url("https://sherinsugathan.github.io/index.html/wp-content/themes/nico/images/texture.jpg");
 }
 
 .footer-bottom {
