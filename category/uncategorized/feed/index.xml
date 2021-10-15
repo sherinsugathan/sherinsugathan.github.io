@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Uncategorized</title>
-	<atom:link href="https://sherinsugathan.github.io/index.html/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
-	<link>https://sherinsugathan.github.io/index.html</link>
+	<atom:link href="https://sherinsugathan.github.io/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
+	<link>https://sherinsugathan.github.io</link>
 	<description></description>
 	<lastBuildDate>Sat, 11 May 2019 15:15:57 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,20 +21,20 @@
 	<generator>https://wordpress.org/?v=5.8.1</generator>
 	<item>
 		<title>Hello world!</title>
-		<link>https://sherinsugathan.github.io/index.html/2019/05/11/hello-world/</link>
-					<comments>https://sherinsugathan.github.io/index.html/2019/05/11/hello-world/#respond</comments>
+		<link>https://sherinsugathan.github.io/2019/05/11/hello-world/</link>
+					<comments>https://sherinsugathan.github.io/2019/05/11/hello-world/#respond</comments>
 		
 		<dc:creator><![CDATA[sherinnovation]]></dc:creator>
 		<pubDate>Sat, 11 May 2019 15:15:57 +0000</pubDate>
 				<category><![CDATA[Uncategorized]]></category>
-		<guid isPermaLink="false">https://sherinsugathan.github.io/index.html/?p=1</guid>
+		<guid isPermaLink="false">https://sherinsugathan.github.io/?p=1</guid>
 
 					<description><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]]></description>
 										<content:encoded><![CDATA[
 <p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://sherinsugathan.github.io/index.html/2019/05/11/hello-world/feed/</wfw:commentRss>
+					<wfw:commentRss>https://sherinsugathan.github.io/2019/05/11/hello-world/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

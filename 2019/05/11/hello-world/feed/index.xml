@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: Hello world!	</title>
-	<atom:link href="https://sherinsugathan.github.io/index.html/2019/05/11/hello-world/feed/" rel="self" type="application/rss+xml" />
-	<link>https://sherinsugathan.github.io/index.html/2019/05/11/hello-world/</link>
+	<atom:link href="https://sherinsugathan.github.io/2019/05/11/hello-world/feed/" rel="self" type="application/rss+xml" />
+	<link>https://sherinsugathan.github.io/2019/05/11/hello-world/</link>
 	<description></description>
 	<lastBuildDate>Sat, 11 May 2019 15:15:57 +0000</lastBuildDate>
 	<sy:updatePeriod>
