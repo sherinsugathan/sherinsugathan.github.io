@@ -19,9 +19,9 @@ div.tp_pub_info {
     width: 100%;
     padding: 8px;}
 div.tp_pub_number {
-    width: 40px;
-    font-size:0.9rem; 
-    padding-top: 8px;
+    width: 20px;
+    font-size:100%; 
+    padding-top: 13px;
     flex-shrink: 0;}
 @media (max-width: 767.98px) {
     div.tp_publication {
