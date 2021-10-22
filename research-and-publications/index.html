@@ -41,7 +41,7 @@ img.emoji {
 <link rel="stylesheet" id="mcluhan-fonts-css" href="//fonts.googleapis.com/css?family=Archivo%3A400%2C400i%2C600%2C600i%2C700%2C700i&#038;subset=latin-ext&#038;ver=1" type="text/css" media="all">
 <link rel="stylesheet" id="fontawesome-css" href="https://sherinsugathan.github.io/wp-content/themes/mcluhan/assets/css/font-awesome.css?ver=5.8.1" type="text/css" media="all">
 <link rel="stylesheet" id="mcluhan-style-css" href="https://sherinsugathan.github.io/wp-content/themes/mcluhan/style.css?ver=2.0.7" type="text/css" media="all">
-<link rel="stylesheet" id="olympus-google-fonts-css" href="https://fonts.googleapis.com/css?family=Lora%3A400%2C500%2C600%2C700%2C400i%2C500i%2C600i%2C700i&#038;display=swap&#038;subset=all&#038;ver=3.0.5" type="text/css" media="all">
+<link rel="stylesheet" id="olympus-google-fonts-css" href="https://fonts.googleapis.com/css?family=Lora%3A400%2C500%2C600%2C700%2C400i%2C500i%2C600i%2C700i%7CJosefin+Sans%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C100i%2C200i%2C300i%2C400i%2C500i%2C600i%2C700i&#038;display=swap&#038;subset=all&#038;ver=3.0.5" type="text/css" media="all">
 <script type="text/javascript" src="https://sherinsugathan.github.io/wp-includes/js/jquery/jquery.min.js?ver=3.6.0" id="jquery-core-js"></script>
 <script type="text/javascript" src="https://sherinsugathan.github.io/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
 <link rel="https://api.w.org/" href="https://sherinsugathan.github.io/wp-json/">
@@ -118,7 +118,8 @@ td{
 
 /* main menu style */
 .main-menu{
-text-transform: uppercase;
+text-transform:uppercase;
+
 }
 
 /* main menu */
@@ -129,7 +130,7 @@ text-transform: uppercase;
 
 /* main menu hover */
 .main-menu a:hover{
-	display: inline-block;
+	/*display: inline-block;*/
 	color:#e9d319;
 	background:none;
 	transition: all .2s ease-out;
@@ -138,9 +139,12 @@ transform: translateX(5px);
 
 .current-menu-item > a
  {
- background:#e9d319;
- color: #000;
-	 padding:2%
+	 border-radius: 9px;
+ /*background:#e9d319;*/
+	 display: block;
+ color: #e9d319;
+	 font-weight:600;
+	 padding:0%
  }
 
 /* table font size fix */
@@ -166,6 +170,9 @@ font-family: "Lora";
  }
 button, .button, input, select, textarea, .wp-block-button, .wp-block-button__link {
 font-family: "Lora";
+ }
+.menu, .page_item a, .menu-item a {
+font-family: "Josefin Sans";
  }</style>
 	<!-- Fonts Plugin CSS -->
 	
@@ -267,8 +274,8 @@ font-family: "Lora";
 
 				
 <form role="search" method="get" class="search-form" action="https://sherinsugathan.github.io/">
-	<label class="screen-reader-text" for="search-form-6172fe99ee636">Search for:</label>
-	<input type="search" id="search-form-6172fe99ee636" class="search-field" placeholder="Enter your search query" value="" name="s" autocomplete="off">
+	<label class="screen-reader-text" for="search-form-61731f3a17e2a">Search for:</label>
+	<input type="search" id="search-form-61731f3a17e2a" class="search-field" placeholder="Enter your search query" value="" name="s" autocomplete="off">
 	
 </form>
 
@@ -285,8 +292,8 @@ font-family: "Lora";
 
 				
 <form role="search" method="get" class="search-form" action="https://sherinsugathan.github.io/">
-	<label class="screen-reader-text" for="search-form-6172fe99ee6f2">Search for:</label>
-	<input type="search" id="search-form-6172fe99ee6f2" class="search-field" placeholder="Enter your search query" value="" name="s" autocomplete="off">
+	<label class="screen-reader-text" for="search-form-61731f3a17ee2">Search for:</label>
+	<input type="search" id="search-form-61731f3a17ee2" class="search-field" placeholder="Enter your search query" value="" name="s" autocomplete="off">
 	
 </form>
 
