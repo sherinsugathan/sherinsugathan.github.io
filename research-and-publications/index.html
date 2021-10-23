@@ -83,7 +83,7 @@ body{
 
 /* site header */
 .site-header{
-	padding-right:0px;
+	padding-right:40px;
 }
 
 /* Site title image */
@@ -98,7 +98,7 @@ height:48px;
 
 /* Main menu top padding */
 .menu-wrapper {
-	margin-top:50px;
+	margin-top:60px;
 	padding-bottom:0px;
 }
 
@@ -137,6 +137,7 @@ text-transform:uppercase;
 transform: translateX(5px);
 }
 
+/* main menu item selected */
 .current-menu-item > a
  {
 	 border-radius: 4px;
@@ -168,6 +169,7 @@ th{
 	line-height:0.5;
 	color:#e58517;
 	font-weight:800;
+	font-size:34px;
 }
 
 h3{
@@ -198,6 +200,34 @@ hr{
 }
 .tp_pub_additional_booktitle{
 	font-style:italic;
+}
+span.tp_pub_type{
+	background-color: #cce5f2;
+    color: #000;
+}
+
+/*.tp_pub_menu a {*/
+span.tp_resource_link a,span.tp_bibtex_link a{
+    color: #E58517;
+}
+
+span.tp_resource_link a:hover,span.tp_bibtex_link a:hover{
+    color: #585858;
+}
+
+.fa, .fas {
+    font-size: larger;
+	color:#008bd2;
+}
+
+.ai.ai-doi{
+font-size:larger;
+	color:#008bd2;
+}
+
+pre {
+	background: aliceblue;
+	border-radius: 14px;
 }</style>
 			<!-- Fonts Plugin CSS - https://fontsplugin.com/ -->
 	<style>:root {
@@ -317,8 +347,8 @@ font-family: "Spectral SC";
 
 				
 <form role="search" method="get" class="search-form" action="https://sherinsugathan.github.io/">
-	<label class="screen-reader-text" for="search-form-6173e83ab450f">Search for:</label>
-	<input type="search" id="search-form-6173e83ab450f" class="search-field" placeholder="Enter your search query" value="" name="s" autocomplete="off">
+	<label class="screen-reader-text" for="search-form-61743a199c029">Search for:</label>
+	<input type="search" id="search-form-61743a199c029" class="search-field" placeholder="Enter your search query" value="" name="s" autocomplete="off">
 	
 </form>
 
@@ -335,8 +365,8 @@ font-family: "Spectral SC";
 
 				
 <form role="search" method="get" class="search-form" action="https://sherinsugathan.github.io/">
-	<label class="screen-reader-text" for="search-form-6173e83ab46ac">Search for:</label>
-	<input type="search" id="search-form-6173e83ab46ac" class="search-field" placeholder="Enter your search query" value="" name="s" autocomplete="off">
+	<label class="screen-reader-text" for="search-form-61743a199c112">Search for:</label>
+	<input type="search" id="search-form-61743a199c112" class="search-field" placeholder="Enter your search query" value="" name="s" autocomplete="off">
 	
 </form>
 
@@ -371,6 +401,7 @@ font-family: "Spectral SC";
 <div class="tp_bibtex_entry"><pre>@conference{nokey,<br>
 title = {Interactive Multimodal Imaging Visualization for Multiple Sclerosis Lesion Analysis},<br>
 author = {Sherin Sugathan and Hauke Bartsch and Frank Riemer and Renate Grüner and Kai Lawonn and Noeska N. Smit},<br>
+url = {https://diglib.eg.org/handle/10.2312/vcbm20211346},<br>
 doi = {10.2312/vcbm.20211346},<br>
 isbn = {978-3-03868-140-3},<br>
 year  = {2021},<br>
@@ -387,9 +418,14 @@ tppubtype = {conference}<br>
 <p class="tp_close_menu"><a class="tp_close" onclick="teachpress_pub_showhide('1','tp_bibtex')">Close</a></p>
 </div>
 <div class="tp_links" id="tp_links_1" style="display:none;">
-<div class="tp_links_entry"><ul class="tp_pub_list"><li>
+<div class="tp_links_entry"><ul class="tp_pub_list">
+<li>
+<i class="fas fa-globe"></i><a class="tp_pub_list" href="https://diglib.eg.org/handle/10.2312/vcbm20211346" title="https://diglib.eg.org/handle/10.2312/vcbm20211346" target="_blank">https://diglib.eg.org/handle/10.2312/vcbm20211346</a>
+</li>
+<li>
 <i class="ai ai-doi"></i><a class="tp_pub_list" href="https://dx.doi.org/10.2312/vcbm.20211346" title="Follow DOI:10.2312/vcbm.20211346" target="_blank">doi:10.2312/vcbm.20211346</a>
-</li></ul></div>
+</li>
+</ul></div>
 <p class="tp_close_menu"><a class="tp_close" onclick="teachpress_pub_showhide('1','tp_links')">Close</a></p>
 </div>
 <div class="tp_pub_image_bottom"></div>
@@ -404,7 +440,6 @@ tppubtype = {conference}<br>
 title = {Fiducial Marker Based Probe Depth Estimation Method for Efficient Transesophageal Echocardiography Examination},<br>
 author = {Sherin Sugathan and Lavanya Kumari Munsiff and Kanchibhatla Abhai Easwar Nag},<br>
 url = {https://www.researchgate.net/publication/319555663_Fiducial_Marker_Based_Probe_Depth_Estimation_Method_for_Efficient_Transesophageal_Echocardiography_Examination},<br>
-doi = {10.1109/ICATCCT.2016.7912072},<br>
 year  = {2017},<br>
 date = {2017-07-11},<br>
 urldate = {2017-07-11},<br>
@@ -417,14 +452,9 @@ tppubtype = {conference}<br>
 <p class="tp_close_menu"><a class="tp_close" onclick="teachpress_pub_showhide('2','tp_bibtex')">Close</a></p>
 </div>
 <div class="tp_links" id="tp_links_2" style="display:none;">
-<div class="tp_links_entry"><ul class="tp_pub_list">
-<li>
+<div class="tp_links_entry"><ul class="tp_pub_list"><li>
 <i class="fas fa-globe"></i><a class="tp_pub_list" href="https://www.researchgate.net/publication/319555663_Fiducial_Marker_Based_Probe_Depth_Estimation_Method_for_Efficient_Transesophageal_Echocardiography_Examination" title="https://www.researchgate.net/publication/319555663_Fiducial_Marker_Based_Probe_D[...]" target="_blank">https://www.researchgate.net/publication/319555663_Fiducial_Marker_Based_Probe_D[...]</a>
-</li>
-<li>
-<i class="ai ai-doi"></i><a class="tp_pub_list" href="https://dx.doi.org/10.1109/ICATCCT.2016.7912072" title="Follow DOI:10.1109/ICATCCT.2016.7912072" target="_blank">doi:10.1109/ICATCCT.2016.7912072</a>
-</li>
-</ul></div>
+</li></ul></div>
 <p class="tp_close_menu"><a class="tp_close" onclick="teachpress_pub_showhide('2','tp_links')">Close</a></p>
 </div>
 <div class="tp_pub_image_bottom"></div>
@@ -438,11 +468,13 @@ tppubtype = {conference}<br>
 <div class="tp_bibtex_entry"><pre>@conference{nokeyc,<br>
 title = {An Improved LSB Embedding Technique for Image Steganography},<br>
 author = {Sherin Sugathan},<br>
+url = {https://ieeexplore.ieee.org/document/7912072},<br>
 doi = {10.1109/ICATCCT.2016.7912072},<br>
 year  = {2016},<br>
 date = {2016-07-23},<br>
 urldate = {2016-07-23},<br>
 booktitle = {2016 2nd International Conference on Applied and Theoretical Computing and Communication Technology (iCATccT)},<br>
+pages = {609-612},<br>
 keywords = {},<br>
 pubstate = {published},<br>
 tppubtype = {conference}<br>
@@ -451,9 +483,14 @@ tppubtype = {conference}<br>
 <p class="tp_close_menu"><a class="tp_close" onclick="teachpress_pub_showhide('3','tp_bibtex')">Close</a></p>
 </div>
 <div class="tp_links" id="tp_links_3" style="display:none;">
-<div class="tp_links_entry"><ul class="tp_pub_list"><li>
+<div class="tp_links_entry"><ul class="tp_pub_list">
+<li>
+<i class="fas fa-globe"></i><a class="tp_pub_list" href="https://ieeexplore.ieee.org/document/7912072" title="https://ieeexplore.ieee.org/document/7912072" target="_blank">https://ieeexplore.ieee.org/document/7912072</a>
+</li>
+<li>
 <i class="ai ai-doi"></i><a class="tp_pub_list" href="https://dx.doi.org/10.1109/ICATCCT.2016.7912072" title="Follow DOI:10.1109/ICATCCT.2016.7912072" target="_blank">doi:10.1109/ICATCCT.2016.7912072</a>
-</li></ul></div>
+</li>
+</ul></div>
 <p class="tp_close_menu"><a class="tp_close" onclick="teachpress_pub_showhide('3','tp_links')">Close</a></p>
 </div>
 <div class="tp_pub_image_bottom"></div>
@@ -503,6 +540,7 @@ tppubtype = {article}<br>
 <div class="tp_bibtex_entry"><pre>@conference{nokeye,<br>
 title = {Adaptive Digital Scan Variable Pixels},<br>
 author = {Reshma Scaria and Sherin Sugathan and Alex Pappachen James},<br>
+url = {https://ieeexplore.ieee.org/document/7275772},<br>
 doi = {10.1109/ICACCI.2015.7275772},<br>
 year  = {2015},<br>
 date = {2015-08-13},<br>
@@ -517,9 +555,14 @@ tppubtype = {conference}<br>
 <p class="tp_close_menu"><a class="tp_close" onclick="teachpress_pub_showhide('5','tp_bibtex')">Close</a></p>
 </div>
 <div class="tp_links" id="tp_links_5" style="display:none;">
-<div class="tp_links_entry"><ul class="tp_pub_list"><li>
+<div class="tp_links_entry"><ul class="tp_pub_list">
+<li>
+<i class="fas fa-globe"></i><a class="tp_pub_list" href="https://ieeexplore.ieee.org/document/7275772" title="https://ieeexplore.ieee.org/document/7275772" target="_blank">https://ieeexplore.ieee.org/document/7275772</a>
+</li>
+<li>
 <i class="ai ai-doi"></i><a class="tp_pub_list" href="https://dx.doi.org/10.1109/ICACCI.2015.7275772" title="Follow DOI:10.1109/ICACCI.2015.7275772" target="_blank">doi:10.1109/ICACCI.2015.7275772</a>
-</li></ul></div>
+</li>
+</ul></div>
 <p class="tp_close_menu"><a class="tp_close" onclick="teachpress_pub_showhide('5','tp_links')">Close</a></p>
 </div>
 <div class="tp_pub_image_bottom"></div>
@@ -533,6 +576,7 @@ tppubtype = {conference}<br>
 <div class="tp_bibtex_entry"><pre>@conference{nokeyf,<br>
 title = {Intraoperative Cardiac MRI Processing Using Threshold Logic Networks},<br>
 author = {Sherin Sugathan and Alex Pappachen James},<br>
+url = {https://ieeexplore.ieee.org/document/6968619},<br>
 doi = {10.1109/ICACCI.2014.6968619},<br>
 year  = {2014},<br>
 date = {2014-12-01},<br>
@@ -547,9 +591,14 @@ tppubtype = {conference}<br>
 <p class="tp_close_menu"><a class="tp_close" onclick="teachpress_pub_showhide('6','tp_bibtex')">Close</a></p>
 </div>
 <div class="tp_links" id="tp_links_6" style="display:none;">
-<div class="tp_links_entry"><ul class="tp_pub_list"><li>
+<div class="tp_links_entry"><ul class="tp_pub_list">
+<li>
+<i class="fas fa-globe"></i><a class="tp_pub_list" href="https://ieeexplore.ieee.org/document/6968619" title="https://ieeexplore.ieee.org/document/6968619" target="_blank">https://ieeexplore.ieee.org/document/6968619</a>
+</li>
+<li>
 <i class="ai ai-doi"></i><a class="tp_pub_list" href="https://dx.doi.org/10.1109/ICACCI.2014.6968619" title="Follow DOI:10.1109/ICACCI.2014.6968619" target="_blank">doi:10.1109/ICACCI.2014.6968619</a>
-</li></ul></div>
+</li>
+</ul></div>
 <p class="tp_close_menu"><a class="tp_close" onclick="teachpress_pub_showhide('6','tp_links')">Close</a></p>
 </div>
 <div class="tp_pub_image_bottom"></div>
@@ -563,6 +612,7 @@ tppubtype = {conference}<br>
 <div class="tp_bibtex_entry"><pre>@article{nokeyg,<br>
 title = {Memristive Threshold Logic Circuits for Fast Moving Object Detection},<br>
 author = {S. Sugathan and D. S. Kumar and A. K. Maan},<br>
+url = {https://ieeexplore.ieee.org/document/6922587},<br>
 doi = {10.1109/TVLSI.2014.2359801},<br>
 year  = {2014},<br>
 date = {2014-10-14},<br>
@@ -579,9 +629,14 @@ tppubtype = {article}<br>
 <p class="tp_close_menu"><a class="tp_close" onclick="teachpress_pub_showhide('7','tp_bibtex')">Close</a></p>
 </div>
 <div class="tp_links" id="tp_links_7" style="display:none;">
-<div class="tp_links_entry"><ul class="tp_pub_list"><li>
+<div class="tp_links_entry"><ul class="tp_pub_list">
+<li>
+<i class="fas fa-globe"></i><a class="tp_pub_list" href="https://ieeexplore.ieee.org/document/6922587" title="https://ieeexplore.ieee.org/document/6922587" target="_blank">https://ieeexplore.ieee.org/document/6922587</a>
+</li>
+<li>
 <i class="ai ai-doi"></i><a class="tp_pub_list" href="https://dx.doi.org/10.1109/TVLSI.2014.2359801" title="Follow DOI:10.1109/TVLSI.2014.2359801" target="_blank">doi:10.1109/TVLSI.2014.2359801</a>
-</li></ul></div>
+</li>
+</ul></div>
 <p class="tp_close_menu"><a class="tp_close" onclick="teachpress_pub_showhide('7','tp_links')">Close</a></p>
 </div>
 <div class="tp_pub_image_bottom"></div>
@@ -595,6 +650,7 @@ tppubtype = {article}<br>
 <div class="tp_bibtex_entry"><pre>@conference{nokeyh,<br>
 title = {Irregular Pixel Imaging},<br>
 author = {Sherin Sugathan and Alex James},<br>
+url = {https://ieeexplore.ieee.org/document/6968476},<br>
 doi = {10.1109/ICACCI.2014.6968476},<br>
 year  = {2014},<br>
 date = {2014-09-27},<br>
@@ -609,9 +665,14 @@ tppubtype = {conference}<br>
 <p class="tp_close_menu"><a class="tp_close" onclick="teachpress_pub_showhide('8','tp_bibtex')">Close</a></p>
 </div>
 <div class="tp_links" id="tp_links_8" style="display:none;">
-<div class="tp_links_entry"><ul class="tp_pub_list"><li>
+<div class="tp_links_entry"><ul class="tp_pub_list">
+<li>
+<i class="fas fa-globe"></i><a class="tp_pub_list" href="https://ieeexplore.ieee.org/document/6968476" title="https://ieeexplore.ieee.org/document/6968476" target="_blank">https://ieeexplore.ieee.org/document/6968476</a>
+</li>
+<li>
 <i class="ai ai-doi"></i><a class="tp_pub_list" href="https://dx.doi.org/10.1109/ICACCI.2014.6968476" title="Follow DOI:10.1109/ICACCI.2014.6968476" target="_blank">doi:10.1109/ICACCI.2014.6968476</a>
-</li></ul></div>
+</li>
+</ul></div>
 <p class="tp_close_menu"><a class="tp_close" onclick="teachpress_pub_showhide('8','tp_links')">Close</a></p>
 </div>
 <div class="tp_pub_image_bottom"></div>
@@ -625,6 +686,7 @@ tppubtype = {conference}<br>
 <div class="tp_bibtex_entry"><pre>@article{nokeyi,<br>
 title = {Discriminative histogram taxonomy features for snake species identification},<br>
 author = {Alex Pappachen James and Bincy Mathews and Sherin Sugathan and Dileep Kumar Raveendran },<br>
+url = {https://hcis-journal.springeropen.com/articles/10.1186/s13673-014-0003-0},<br>
 doi = {10.1186/s13673-014-0003-0},<br>
 year  = {2014},<br>
 date = {2014-03-28},<br>
@@ -641,22 +703,29 @@ tppubtype = {article}<br>
 <p class="tp_close_menu"><a class="tp_close" onclick="teachpress_pub_showhide('9','tp_bibtex')">Close</a></p>
 </div>
 <div class="tp_links" id="tp_links_9" style="display:none;">
-<div class="tp_links_entry"><ul class="tp_pub_list"><li>
+<div class="tp_links_entry"><ul class="tp_pub_list">
+<li>
+<i class="fas fa-globe"></i><a class="tp_pub_list" href="https://hcis-journal.springeropen.com/articles/10.1186/s13673-014-0003-0" title="https://hcis-journal.springeropen.com/articles/10.1186/s13673-014-0003-0" target="_blank">https://hcis-journal.springeropen.com/articles/10.1186/s13673-014-0003-0</a>
+</li>
+<li>
 <i class="ai ai-doi"></i><a class="tp_pub_list" href="https://dx.doi.org/10.1186/s13673-014-0003-0" title="Follow DOI:10.1186/s13673-014-0003-0" target="_blank">doi:10.1186/s13673-014-0003-0</a>
-</li></ul></div>
+</li>
+</ul></div>
 <p class="tp_close_menu"><a class="tp_close" onclick="teachpress_pub_showhide('9','tp_links')">Close</a></p>
 </div>
 <div class="tp_pub_image_bottom"></div>
 </div></div>
 <div class="tp_publication tp_publication_article"><div class="tp_pub_info">
 <p class="tp_pub_author">P. Anusha; A. P. James; Sherin Sugathan</p>
-<p class="tp_pub_title">Edge detection using resistive threshold logic networks with CMOS flash memories <span class="tp_pub_type article">Journal Article</span> </p>
+<p class="tp_pub_title"><a class="tp_title_link" onclick="teachpress_pub_showhide('10','tp_links')" style="cursor:pointer;">Edge detection using resistive threshold logic networks with CMOS flash memories</a> <span class="tp_pub_type article">Journal Article</span> </p>
 <p class="tp_pub_additional"><span class="tp_pub_additional_in">In: </span><span class="tp_pub_additional_journal">International Journal of Intelligent Computing and Cybernetics, </span><span class="tp_pub_additional_volume">7 </span><span class="tp_pub_additional_number">(1), </span><span class="tp_pub_additional_pages">pp. 79-94, </span><span class="tp_pub_additional_year">2014</span>, <span class="tp_pub_additional_issn">ISSN: 1756-378X</span>.</p>
-<p class="tp_pub_menu"><span class="tp_bibtex_link"><a id="tp_bibtex_sh_10" class="tp_show" onclick="teachpress_pub_showhide('10','tp_bibtex')" title="Show BibTeX entry" style="cursor:pointer;">BibTeX</a></span></p>
+<p class="tp_pub_menu"><span class="tp_resource_link"><a id="tp_links_sh_10" class="tp_show" onclick="teachpress_pub_showhide('10','tp_links')" title="Show links and resources" style="cursor:pointer;">Links</a></span> | <span class="tp_bibtex_link"><a id="tp_bibtex_sh_10" class="tp_show" onclick="teachpress_pub_showhide('10','tp_bibtex')" title="Show BibTeX entry" style="cursor:pointer;">BibTeX</a></span></p>
 <div class="tp_bibtex" id="tp_bibtex_10" style="display:none;">
 <div class="tp_bibtex_entry"><pre>@article{nokeyj,<br>
 title = {Edge detection using resistive threshold logic networks with CMOS flash memories},<br>
 author = {P. Anusha and A. P. James and Sherin Sugathan},<br>
+url = {https://www.emerald.com/insight/content/doi/10.1108/IJICC-06-2013-0032/full/html},<br>
+doi = { 10.1108/ijicc-06-2013-0032 },<br>
 issn = {1756-378X},<br>
 year  = {2014},<br>
 date = {2014-03-04},<br>
@@ -672,17 +741,30 @@ tppubtype = {article}<br>
 </pre></div>
 <p class="tp_close_menu"><a class="tp_close" onclick="teachpress_pub_showhide('10','tp_bibtex')">Close</a></p>
 </div>
+<div class="tp_links" id="tp_links_10" style="display:none;">
+<div class="tp_links_entry"><ul class="tp_pub_list">
+<li>
+<i class="fas fa-globe"></i><a class="tp_pub_list" href="https://www.emerald.com/insight/content/doi/10.1108/IJICC-06-2013-0032/full/html" title="https://www.emerald.com/insight/content/doi/10.1108/IJICC-06-2013-0032/full/html" target="_blank">https://www.emerald.com/insight/content/doi/10.1108/IJICC-06-2013-0032/full/html</a>
+</li>
+<li>
+<i class="ai ai-doi"></i><a class="tp_pub_list" href="https://dx.doi.org/ 10.1108/ijicc-06-2013-0032" title="Follow DOI: 10.1108/ijicc-06-2013-0032 " target="_blank">doi: 10.1108/ijicc-06-2013-0032 </a>
+</li>
+</ul></div>
+<p class="tp_close_menu"><a class="tp_close" onclick="teachpress_pub_showhide('10','tp_links')">Close</a></p>
+</div>
 <div class="tp_pub_image_bottom"></div>
 </div></div>
 <div class="tp_publication tp_publication_inbook"><div class="tp_pub_info">
 <p class="tp_pub_author">A. P. James; Sherin Sugathan</p>
-<p class="tp_pub_title">Trust issues in Modern Embedded Computing <span class="tp_pub_type inbook">Book Chapter</span> </p>
+<p class="tp_pub_title"><a class="tp_title_link" onclick="teachpress_pub_showhide('11','tp_links')" style="cursor:pointer;">Trust issues in Modern Embedded Computing</a> <span class="tp_pub_type inbook">Book Chapter</span> </p>
 <p class="tp_pub_additional"><span class="tp_pub_additional_in">In: </span><span class="tp_pub_additional_year">2013</span>, <span class="tp_pub_additional_isbn">ISBN: 9781466568440</span>.</p>
-<p class="tp_pub_menu"><span class="tp_bibtex_link"><a id="tp_bibtex_sh_11" class="tp_show" onclick="teachpress_pub_showhide('11','tp_bibtex')" title="Show BibTeX entry" style="cursor:pointer;">BibTeX</a></span></p>
+<p class="tp_pub_menu"><span class="tp_resource_link"><a id="tp_links_sh_11" class="tp_show" onclick="teachpress_pub_showhide('11','tp_links')" title="Show links and resources" style="cursor:pointer;">Links</a></span> | <span class="tp_bibtex_link"><a id="tp_bibtex_sh_11" class="tp_show" onclick="teachpress_pub_showhide('11','tp_bibtex')" title="Show BibTeX entry" style="cursor:pointer;">BibTeX</a></span></p>
 <div class="tp_bibtex" id="tp_bibtex_11" style="display:none;">
 <div class="tp_bibtex_entry"><pre>@inbook{nokeyk,<br>
 title = {Trust issues in Modern Embedded Computing},<br>
 author = {A. P. James and Sherin Sugathan},<br>
+url = {https://www.taylorfrancis.com/chapters/edit/10.1201/b16318-17/using-trust-argumentation-multiagent-recommender-systems-punam-bedi-pooja-vashisth},<br>
+doi = {10.1201/b16318-17},<br>
 isbn = {9781466568440},<br>
 year  = {2013},<br>
 date = {2013-12-16},<br>
@@ -693,6 +775,17 @@ tppubtype = {inbook}<br>
 }<br>
 </pre></div>
 <p class="tp_close_menu"><a class="tp_close" onclick="teachpress_pub_showhide('11','tp_bibtex')">Close</a></p>
+</div>
+<div class="tp_links" id="tp_links_11" style="display:none;">
+<div class="tp_links_entry"><ul class="tp_pub_list">
+<li>
+<i class="fas fa-globe"></i><a class="tp_pub_list" href="https://www.taylorfrancis.com/chapters/edit/10.1201/b16318-17/using-trust-argumentation-multiagent-recommender-systems-punam-bedi-pooja-vashisth" title="https://www.taylorfrancis.com/chapters/edit/10.1201/b16318-17/using-trust-argume[...]" target="_blank">https://www.taylorfrancis.com/chapters/edit/10.1201/b16318-17/using-trust-argume[...]</a>
+</li>
+<li>
+<i class="ai ai-doi"></i><a class="tp_pub_list" href="https://dx.doi.org/10.1201/b16318-17" title="Follow DOI:10.1201/b16318-17" target="_blank">doi:10.1201/b16318-17</a>
+</li>
+</ul></div>
+<p class="tp_close_menu"><a class="tp_close" onclick="teachpress_pub_showhide('11','tp_links')">Close</a></p>
 </div>
 <div class="tp_pub_image_bottom"></div>
 </div></div>
@@ -705,6 +798,7 @@ tppubtype = {inbook}<br>
 <div class="tp_bibtex_entry"><pre>@conference{6681066,<br>
 title = {Parallel Realization of Cognitive Cells on Film Mammography},<br>
 author = {Alex Pappachen James and Sherin Sugathan},<br>
+url = {https://ieeexplore.ieee.org/document/6681066?section=abstract},<br>
 doi = {10.1109/TrustCom.2013.232},<br>
 year  = {2013},<br>
 date = {2013-12-12},<br>
@@ -719,9 +813,14 @@ tppubtype = {conference}<br>
 <p class="tp_close_menu"><a class="tp_close" onclick="teachpress_pub_showhide('12','tp_bibtex')">Close</a></p>
 </div>
 <div class="tp_links" id="tp_links_12" style="display:none;">
-<div class="tp_links_entry"><ul class="tp_pub_list"><li>
+<div class="tp_links_entry"><ul class="tp_pub_list">
+<li>
+<i class="fas fa-globe"></i><a class="tp_pub_list" href="https://ieeexplore.ieee.org/document/6681066?section=abstract" title="https://ieeexplore.ieee.org/document/6681066?section=abstract" target="_blank">https://ieeexplore.ieee.org/document/6681066?section=abstract</a>
+</li>
+<li>
 <i class="ai ai-doi"></i><a class="tp_pub_list" href="https://dx.doi.org/10.1109/TrustCom.2013.232" title="Follow DOI:10.1109/TrustCom.2013.232" target="_blank">doi:10.1109/TrustCom.2013.232</a>
-</li></ul></div>
+</li>
+</ul></div>
 <p class="tp_close_menu"><a class="tp_close" onclick="teachpress_pub_showhide('12','tp_links')">Close</a></p>
 </div>
 <div class="tp_pub_image_bottom"></div>
@@ -735,6 +834,7 @@ tppubtype = {conference}<br>
 <div class="tp_bibtex_entry"><pre>@conference{nokeyl,<br>
 title = {Directional Edge Detection using Parallel Cognitive Logic Cells},<br>
 author = {Sherin Sugathan and Alex Pappachen James},<br>
+url = {https://ieeexplore.ieee.org/document/6637257},<br>
 doi = {10.1109/ICACCI.2013.6637257},<br>
 year  = {2013},<br>
 date = {2013-10-21},<br>
@@ -749,9 +849,14 @@ tppubtype = {conference}<br>
 <p class="tp_close_menu"><a class="tp_close" onclick="teachpress_pub_showhide('13','tp_bibtex')">Close</a></p>
 </div>
 <div class="tp_links" id="tp_links_13" style="display:none;">
-<div class="tp_links_entry"><ul class="tp_pub_list"><li>
+<div class="tp_links_entry"><ul class="tp_pub_list">
+<li>
+<i class="fas fa-globe"></i><a class="tp_pub_list" href="https://ieeexplore.ieee.org/document/6637257" title="https://ieeexplore.ieee.org/document/6637257" target="_blank">https://ieeexplore.ieee.org/document/6637257</a>
+</li>
+<li>
 <i class="ai ai-doi"></i><a class="tp_pub_list" href="https://dx.doi.org/10.1109/ICACCI.2013.6637257" title="Follow DOI:10.1109/ICACCI.2013.6637257" target="_blank">doi:10.1109/ICACCI.2013.6637257</a>
-</li></ul></div>
+</li>
+</ul></div>
 <p class="tp_close_menu"><a class="tp_close" onclick="teachpress_pub_showhide('13','tp_links')">Close</a></p>
 </div>
 <div class="tp_pub_image_bottom"></div>
