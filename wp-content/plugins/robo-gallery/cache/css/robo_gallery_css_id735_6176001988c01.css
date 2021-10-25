@@ -1,0 +1,36 @@
+.robo-gallery-wrap-id735:not(#no-robo-galery) .image-with-dimensions {
+  background-color: #fff; }
+
+.robo-gallery-wrap-id735:not(#no-robo-galery) .rbs-img-container {
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px; }
+
+.robo-gallery-wrap-id735:not(#no-robo-galery) .thumbnail-overlay {
+  background: rgba(229, 133, 23, 0.5); }
+
+.robo-lightbox-id735:not(#no-robo-galery) .mfp-bottom-bar .mfp-title, .robo-lightbox-id735:not(#no-robo-galery) .mfp-bottom-bar .mfp-counter {
+  color: #f3f3f3; }
+
+.robo-lightbox-id735:not(#no-robo-galery) .mfp-ready.mfp-bg {
+  background-color: rgba(11, 11, 11, 0.8); }
+
+.robo-gallery-wrap-id735:not(#no-robo-galery) .rbs-img-container {
+  -webkit-box-shadow: 0px 5px 7px rgba(34, 25, 25, 0.4);
+  -moz-box-shadow: 0px 5px 7px rgba(34, 25, 25, 0.4);
+  -o-box-shadow: 0px 5px 7px rgba(34, 25, 25, 0.4);
+  -ms-box-shadow: 0px 5px 7px rgba(34, 25, 25, 0.4);
+  box-shadow: 0px 5px 7px rgba(34, 25, 25, 0.4); }
+
+.robo-gallery-wrap-id735:not(#no-robo-galery) .rbsTitle {
+  font-size: 16px;
+  line-height: 100%;
+  color: #fff;
+  font-weight: bold;
+  font-style: italic; }
+  .robo-gallery-wrap-id735:not(#no-robo-galery) .rbsTitle:hover {
+    color: #fff; }
+
+.robo-gallery-wrap-id735:not(#no-robo-galery) .rbs-img-content {
+  text-align: center;
+  background: #f0f8ff; }

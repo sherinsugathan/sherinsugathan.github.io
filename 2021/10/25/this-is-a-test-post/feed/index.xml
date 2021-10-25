@@ -7,11 +7,11 @@
 	>
 <channel>
 	<title>
-	Comments for Sherin Sugathan	</title>
-	<atom:link href="https://sherinsugathan.github.io/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>https://sherinsugathan.github.io</link>
+	Comments on: This is a test post	</title>
+	<atom:link href="https://sherinsugathan.github.io/2021/10/25/this-is-a-test-post/feed/" rel="self" type="application/rss+xml" />
+	<link>https://sherinsugathan.github.io/2021/10/25/this-is-a-test-post/</link>
 	<description></description>
-	<lastBuildDate>Mon, 25 Oct 2021 12:12:15 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 25 Oct 2021 11:06:44 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
