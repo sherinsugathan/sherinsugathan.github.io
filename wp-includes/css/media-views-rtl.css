@@ -287,7 +287,7 @@
 
 /* higher specificity */
 .wp-core-ui .media-modal-icon {
-	background-image: url(https://sherinsugathan.github.io/wp-includes/images/uploader-icons.png);
+	background-image: url(https://www.sherin.me/wp-includes/images/uploader-icons.png);
 	background-repeat: no-repeat;
 }
 
@@ -1779,7 +1779,7 @@
  * Spinner
  */
 .media-frame .spinner {
-	background: url(https://sherinsugathan.github.io/wp-includes/images/spinner.gif) no-repeat;
+	background: url(https://www.sherin.me/wp-includes/images/spinner.gif) no-repeat;
 	background-size: 20px 20px;
 	float: left;
 	display: inline-block;
@@ -2953,12 +2953,12 @@
   (min-resolution: 120dpi) {
 
 	.wp-core-ui .media-modal-icon {
-		background-image: url(https://sherinsugathan.github.io/wp-includes/images/uploader-icons-2x.png);
+		background-image: url(https://www.sherin.me/wp-includes/images/uploader-icons-2x.png);
 		background-size: 134px 15px;
 	}
 
 	.media-frame .spinner {
-		background-image: url(https://sherinsugathan.github.io/wp-includes/images/spinner-2x.gif);
+		background-image: url(https://www.sherin.me/wp-includes/images/spinner-2x.gif);
 	}
 }
 

@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Sherin Sugathan</title>
-	<atom:link href="https://sherinsugathan.github.io/feed/" rel="self" type="application/rss+xml" />
-	<link>https://sherinsugathan.github.io</link>
+	<atom:link href="https://www.sherin.me/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.sherin.me</link>
 	<description></description>
 	<lastBuildDate>Mon, 25 Oct 2021 11:06:44 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,28 +21,28 @@
 	<generator>https://wordpress.org/?v=5.8.2</generator>
 
 <image>
-	<url>https://sherinsugathan.github.io/wp-content/uploads/2021/10/favicon-32x32-1.png</url>
+	<url>https://www.sherin.me/wp-content/uploads/2021/10/favicon-32x32-1.png</url>
 	<title>Sherin Sugathan</title>
-	<link>https://sherinsugathan.github.io</link>
+	<link>https://www.sherin.me</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>This is a test post</title>
-		<link>https://sherinsugathan.github.io/2021/10/25/this-is-a-test-post/</link>
-					<comments>https://sherinsugathan.github.io/2021/10/25/this-is-a-test-post/#respond</comments>
+		<link>https://www.sherin.me/2021/10/25/this-is-a-test-post/</link>
+					<comments>https://www.sherin.me/2021/10/25/this-is-a-test-post/#respond</comments>
 		
 		<dc:creator><![CDATA[sherinnovation]]></dc:creator>
 		<pubDate>Mon, 25 Oct 2021 11:06:44 +0000</pubDate>
 				<category><![CDATA[Uncategorized]]></category>
-		<guid isPermaLink="false">https://sherinsugathan.github.io/?p=741</guid>
+		<guid isPermaLink="false">https://www.sherin.me/?p=741</guid>
 
 					<description><![CDATA[This is a test posrtt]]></description>
 										<content:encoded><![CDATA[
 <p>This is a test posrtt</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://sherinsugathan.github.io/2021/10/25/this-is-a-test-post/feed/</wfw:commentRss>
+					<wfw:commentRss>https://www.sherin.me/2021/10/25/this-is-a-test-post/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

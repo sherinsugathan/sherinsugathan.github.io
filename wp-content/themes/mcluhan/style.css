@@ -956,7 +956,7 @@ body.hide-social .social-menu {
 }
 
 .sticky .sticky-arrow {
-	background:  url( https://sherinsugathan.github.io/wp-content/themes/mcluhan/assets/images/arrow-black-right.svg) no-repeat center;
+	background:  url( https://www.sherin.me/wp-content/themes/mcluhan/assets/images/arrow-black-right.svg) no-repeat center;
 	background-size: auto 12px;
 	border-radius: 50%;
 	display: inline;
@@ -1128,13 +1128,13 @@ body.hide-social .social-menu {
 
 .post-pagination .previous-post a { padding-left: 25px; }
 .post-pagination .previous-post a:before {
-	background-image: url( https://sherinsugathan.github.io/wp-content/themes/mcluhan/assets/images/arrow-black-left.svg);
+	background-image: url( https://www.sherin.me/wp-content/themes/mcluhan/assets/images/arrow-black-left.svg);
 	left: 0;
 }
 
 .post-pagination .next-post a { padding-right: 25px; }
 .post-pagination .next-post a:before {
-	background-image: url( https://sherinsugathan.github.io/wp-content/themes/mcluhan/assets/images/arrow-black-right.svg);
+	background-image: url( https://www.sherin.me/wp-content/themes/mcluhan/assets/images/arrow-black-right.svg);
 	right: 0;
 }
 
@@ -1370,7 +1370,7 @@ body.hide-social .social-menu {
 }
 
 .comment-respond .form-submit #submit {
-	background: transparent url( https://sherinsugathan.github.io/wp-content/themes/mcluhan/assets/images/arrow-black-right.svg) no-repeat right center;
+	background: transparent url( https://www.sherin.me/wp-content/themes/mcluhan/assets/images/arrow-black-right.svg) no-repeat right center;
 	background-size: auto 12px;
 	border-bottom: 1px solid transparent;
 	color: #121212;
@@ -1993,7 +1993,7 @@ p.has-drop-cap:not(:focus):first-letter {
 }
 
 input.search-field {
-	background: url( https://sherinsugathan.github.io/wp-content/themes/mcluhan/assets/images/spyglass-black.svg) no-repeat left center;
+	background: url( https://www.sherin.me/wp-content/themes/mcluhan/assets/images/spyglass-black.svg) no-repeat left center;
 	background-size: 26px auto;
 	border: none;
 	border-bottom: 1px solid #121212;
@@ -2243,7 +2243,7 @@ input.search-field::-moz-placeholder { color: #121212; }
 	}
 
 	.main-menu .toggle-mobile-search:before {
-		background: url( https://sherinsugathan.github.io/wp-content/themes/mcluhan/assets/images/spyglass-white.svg) no-repeat center left;
+		background: url( https://www.sherin.me/wp-content/themes/mcluhan/assets/images/spyglass-white.svg) no-repeat center left;
 		background-size: 22px auto;
 		content: "";
 		display: block;
@@ -2255,7 +2255,7 @@ input.search-field::-moz-placeholder { color: #121212; }
 	}
 
 	.dark .main-menu .toggle-mobile-search:before {
-		background-image: url( https://sherinsugathan.github.io/wp-content/themes/mcluhan/assets/images/spyglass-semiopaque.svg);
+		background-image: url( https://www.sherin.me/wp-content/themes/mcluhan/assets/images/spyglass-semiopaque.svg);
 	}
 
 	.mobile-menu-wrapper.visible .main-menu {
@@ -2426,7 +2426,7 @@ input.search-field::-moz-placeholder { color: #121212; }
 	}
 
 	.mobile-search .search-field {
-		background-image: url( https://sherinsugathan.github.io/wp-content/themes/mcluhan/assets/images/spyglass-white.svg);
+		background-image: url( https://www.sherin.me/wp-content/themes/mcluhan/assets/images/spyglass-white.svg);
 		background-size: 22px auto;
 		border-bottom-color: #fff;
 		color: #fff;
@@ -2435,7 +2435,7 @@ input.search-field::-moz-placeholder { color: #121212; }
 	}
 
 	.dark .mobile-search .search-field {
-		background-image: url( https://sherinsugathan.github.io/wp-content/themes/mcluhan/assets/images/spyglass-semiopaque.svg);
+		background-image: url( https://www.sherin.me/wp-content/themes/mcluhan/assets/images/spyglass-semiopaque.svg);
 		border-bottom-color: rgba( 0, 0, 0, 0.9 );
 		color: rgba( 0, 0, 0, 0.9 );
 	}

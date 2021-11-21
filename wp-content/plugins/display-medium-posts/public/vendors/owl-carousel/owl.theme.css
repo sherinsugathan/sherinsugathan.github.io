@@ -75,5 +75,5 @@
 /* preloading images */
 .owl-item.loading{
 	min-height: 150px;
-	background: url(https://sherinsugathan.github.io/wp-content/plugins/display-medium-posts/public/vendors/owl-carousel/AjaxLoader.gif) no-repeat center center
+	background: url(https://www.sherin.me/wp-content/plugins/display-medium-posts/public/vendors/owl-carousel/AjaxLoader.gif) no-repeat center center
 }
