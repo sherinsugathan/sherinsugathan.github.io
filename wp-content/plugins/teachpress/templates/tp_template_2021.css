@@ -17,7 +17,8 @@ div.tp_pub_image_right {
     padding-bottom: 8px;}
 div.tp_pub_info {
     width: 100%;
-    padding: 8px;}
+    padding: 0px; /* Sherin changed from 8px to 0px */
+	padding-bottom: 8px; /* Sherin added bottom padding */}
 div.tp_pub_number {
     width: 40px;
     font-size:1.0rem; 
