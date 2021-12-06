@@ -37,11 +37,11 @@ img.emoji {
 <link rel="stylesheet" id="wp-nux-css" href="https://www.sherin.me/wp-includes/css/dist/nux/style.min.css?ver=5.8.2" type="text/css" media="all">
 <link rel="stylesheet" id="wp-reusable-blocks-css" href="https://www.sherin.me/wp-includes/css/dist/reusable-blocks/style.min.css?ver=5.8.2" type="text/css" media="all">
 <link rel="stylesheet" id="wp-editor-css" href="https://www.sherin.me/wp-includes/css/dist/editor/style.min.css?ver=5.8.2" type="text/css" media="all">
-<link rel="stylesheet" id="block-robo-gallery-style-css-css" href="https://www.sherin.me/wp-content/plugins/robo-gallery/includes/extensions/block/dist/blocks.style.build.css?ver=3.1.3" type="text/css" media="all">
+<link rel="stylesheet" id="block-robo-gallery-style-css-css" href="https://www.sherin.me/wp-content/plugins/robo-gallery/includes/extensions/block/dist/blocks.style.build.css?ver=3.1.4" type="text/css" media="all">
 <link rel="stylesheet" id="mcluhan-fonts-css" href="//fonts.googleapis.com/css?family=Archivo%3A400%2C400i%2C600%2C600i%2C700%2C700i&#038;subset=latin-ext&#038;ver=1" type="text/css" media="all">
 <link rel="stylesheet" id="fontawesome-css" href="https://www.sherin.me/wp-content/themes/mcluhan/assets/css/font-awesome.css?ver=5.8.2" type="text/css" media="all">
 <link rel="stylesheet" id="mcluhan-style-css" href="https://www.sherin.me/wp-content/themes/mcluhan/style.css?ver=2.0.7" type="text/css" media="all">
-<link rel="stylesheet" id="custom-layouts-styles-css" href="https://www.sherin.me/wp-content/uploads/custom-layouts/style.css?ver=1" type="text/css" media="all">
+<link rel="stylesheet" id="custom-layouts-styles-css" href="https://www.sherin.me/wp-content/uploads/custom-layouts/style.css?ver=2" type="text/css" media="all">
 <link rel="stylesheet" id="olympus-google-fonts-css" href="https://fonts.googleapis.com/css?family=Inter%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100i%2C200i%2C300i%2C400i%2C500i%2C600i%2C700i%2C800i%2C900i&#038;display=swap&#038;subset=all&#038;ver=3.0.7" type="text/css" media="all">
 <script type="text/javascript" src="https://www.sherin.me/wp-includes/js/jquery/jquery.min.js?ver=3.6.0" id="jquery-core-js"></script>
 <script type="text/javascript" src="https://www.sherin.me/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
@@ -93,12 +93,14 @@ body{
 
 /* Site title image */
 .site-title{
-	display: block;
-	width: 220px;
-height:30px;
-	background: url(https://www.sherin.me/wp-content/uploads/2021/12/logoSherin-1.svg) no-repeat 0 0px;
-	text-indent: -9999px;
-	background-size: 220px;
+font-size:180%;
+text-decoration:none;
+}
+
+.site-title a:hover{
+	border-bottom-color:transparent;
+	text-decoration:none;
+	color: #ea8517;
 }
 
 /* Main menu top padding */
@@ -207,6 +209,7 @@ hr{
 }
 .entry-content a{
 	border-bottom: none;
+	color:#008bd2;
 }
 .tp_pub_additional_booktitle{
 	font-style:italic;
@@ -275,7 +278,52 @@ div.medium-widget-article__author-name{
 }
 .orangelink{
 	color:#e58517;
-}</style>
+}
+
+/* #######################*/
+/* KNOWLEDGE SHARE */
+/* #######################*/
+.cl-template--id-0 .cl-element--instance-1003 .cl-element-title__anchor  {
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    display: inline-block;
+    line-height: inherit;
+    font-size: 16px;
+    font-family: Inter;
+	  color:#e58517;
+}
+.cl-template--id-0 .cl-element--instance-1003 .cl-element-title__anchor:hover{
+	font-weight: 400;
+font-style: normal;
+text-decoration: underline;
+	color:#008bd2;
+}
+
+.cl-template--id-0 div.cl-element--instance-1004 {
+	font-family: Inter;
+	font-size:14px;
+	line-height:1.5em;
+}
+
+/* border box */
+.cl-template--id-0{
+border-radius: 8px;
+border-width: 1px;
+border-color: #f2f2f2;
+}
+
+/* Button styling */
+.cl-template--id-0 div.cl-element--instance-1005{
+	font-size:12px;
+	font-family: Inter;
+}
+
+.cl-template--id-0 div.cl-element--instance-1005 .cl-element-link__anchor:hover, .cl-template--id-0 div.cl-element--instance-1005 .cl-element-link__anchor:active, .cl-template--id-0 div.cl-element--instance-1005 .cl-element-link__anchor:focus{
+	text-decoration:none;
+}
+
+/* Posts */</style>
 			<style id="egf-frontend-styles" type="text/css">p {} h1 {} h2 {} h3 {} h4 {} h5 {} h6 {}</style>
 		<!-- Fonts Plugin CSS - https://fontsplugin.com/ -->
 	<style>:root {
@@ -399,8 +447,8 @@ font-family: "Inter";
 
 				
 <form role="search" method="get" class="search-form" action="https://www.sherin.me/">
-	<label class="screen-reader-text" for="search-form-61aa9b2d44f4f">Search for:</label>
-	<input type="search" id="search-form-61aa9b2d44f4f" class="search-field" placeholder="Enter your search query" value="" name="s" autocomplete="off">
+	<label class="screen-reader-text" for="search-form-61ae49f008c51">Search for:</label>
+	<input type="search" id="search-form-61ae49f008c51" class="search-field" placeholder="Enter your search query" value="" name="s" autocomplete="off">
 	
 </form>
 
@@ -417,8 +465,8 @@ font-family: "Inter";
 
 				
 <form role="search" method="get" class="search-form" action="https://www.sherin.me/">
-	<label class="screen-reader-text" for="search-form-61aa9b2d45088">Search for:</label>
-	<input type="search" id="search-form-61aa9b2d45088" class="search-field" placeholder="Enter your search query" value="" name="s" autocomplete="off">
+	<label class="screen-reader-text" for="search-form-61ae49f008d8f">Search for:</label>
+	<input type="search" id="search-form-61ae49f008d8f" class="search-field" placeholder="Enter your search query" value="" name="s" autocomplete="off">
 	
 </form>
 
@@ -445,42 +493,42 @@ font-family: "Inter";
 <br>
 
 
-<style type="text/css" scoped>.rbs_gallery_61aa9b2d4552cSpinner{
+<style type="text/css" scoped>.rbs_gallery_61ae49f0092c0Spinner{
 				margin: 50px auto;
 				width: 50px;
 				height: 40px;
 				text-align: center;
 				font-size: 10px;
 			}
-			.rbs_gallery_61aa9b2d4552cSpinner > div{
+			.rbs_gallery_61ae49f0092c0Spinner > div{
 			  background-color: #333;
 			  height: 100%;
 			  width: 6px;
 			  display: inline-block;
-			  -webkit-animation: rbs_gallery_61aa9b2d4552c-stretchdelay 1.2s infinite ease-in-out;
-			  animation: rbs_gallery_61aa9b2d4552c-stretchdelay 1.2s infinite ease-in-out;
+			  -webkit-animation: rbs_gallery_61ae49f0092c0-stretchdelay 1.2s infinite ease-in-out;
+			  animation: rbs_gallery_61ae49f0092c0-stretchdelay 1.2s infinite ease-in-out;
 			}
-			.rbs_gallery_61aa9b2d4552cSpinner .rbs_gallery_61aa9b2d4552cRect2 {
+			.rbs_gallery_61ae49f0092c0Spinner .rbs_gallery_61ae49f0092c0Rect2 {
 			  -webkit-animation-delay: -1.1s;
 			  animation-delay: -1.1s;
 			}
-			.rbs_gallery_61aa9b2d4552cSpinner .rbs_gallery_61aa9b2d4552cRect3 {
+			.rbs_gallery_61ae49f0092c0Spinner .rbs_gallery_61ae49f0092c0Rect3 {
 			  -webkit-animation-delay: -1.0s;
 			  animation-delay: -1.0s;
 			}
-			.rbs_gallery_61aa9b2d4552cSpinner .rbs_gallery_61aa9b2d4552cRect4 {
+			.rbs_gallery_61ae49f0092c0Spinner .rbs_gallery_61ae49f0092c0Rect4 {
 			  -webkit-animation-delay: -0.9s;
 			  animation-delay: -0.9s;
 			}
-			.rbs_gallery_61aa9b2d4552cSpinner .rbs_gallery_61aa9b2d4552cRect5 {
+			.rbs_gallery_61ae49f0092c0Spinner .rbs_gallery_61ae49f0092c0Rect5 {
 			  -webkit-animation-delay: -0.8s;
 			  animation-delay: -0.8s;
 			}
-			@-webkit-keyframes rbs_gallery_61aa9b2d4552c-stretchdelay {
+			@-webkit-keyframes rbs_gallery_61ae49f0092c0-stretchdelay {
 			  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
 			  20% { -webkit-transform: scaleY(1.0) }
 			}
-			@keyframes rbs_gallery_61aa9b2d4552c-stretchdelay {
+			@keyframes rbs_gallery_61ae49f0092c0-stretchdelay {
 			  0%, 40%, 100% { 
 			    transform: scaleY(0.4);
 			    -webkit-transform: scaleY(0.4);
@@ -490,10 +538,10 @@ font-family: "Inter";
 			  }
 			}</style>
 <div class="robo-gallery-wrap robo-gallery-wrap-id786 robo-gallery-masonry">
-<div id="rbs_gallery_61aa9b2d4552c-block-loader" class="rbs_gallery_61aa9b2d4552cSpinner">
-<div class="rbs_gallery_61aa9b2d4552cRect1"></div> <div class="rbs_gallery_61aa9b2d4552cRect2"></div> <div class="rbs_gallery_61aa9b2d4552cRect3"></div> <div class="rbs_gallery_61aa9b2d4552cRect4"></div> <div class="rbs_gallery_61aa9b2d4552cRect5"></div>
+<div id="rbs_gallery_61ae49f0092c0-block-loader" class="rbs_gallery_61ae49f0092c0Spinner">
+<div class="rbs_gallery_61ae49f0092c0Rect1"></div> <div class="rbs_gallery_61ae49f0092c0Rect2"></div> <div class="rbs_gallery_61ae49f0092c0Rect3"></div> <div class="rbs_gallery_61ae49f0092c0Rect4"></div> <div class="rbs_gallery_61ae49f0092c0Rect5"></div>
 </div>
-<div id="robo_gallery_main_block_rbs_gallery_61aa9b2d4552c" class="robogallery-gallery-786" style="width:100%;  display: none;"><div id="rbs_gallery_61aa9b2d4552c" data-options="rbs_gallery_61aa9b2d4552c" style="width:100%;" class="robo_gallery  ">
+<div id="robo_gallery_main_block_rbs_gallery_61ae49f0092c0" class="robogallery-gallery-786" style="width:100%;  display: none;"><div id="rbs_gallery_61ae49f0092c0" data-options="rbs_gallery_61ae49f0092c0" style="width:100%;" class="robo_gallery  ">
 <div class="rbs-img  category786 " data-columns="1">
 <div class="rbs-img-image   rbs-lightbox ">
 <div class="rbs-img-thumbs" data-thumbnail="https://www.sherin.me/wp-content/uploads/2021/10/pv1.jpg" title="CodeWiz Workshop" data-width="600" data-height="348"></div>
@@ -529,7 +577,7 @@ font-family: "Inter";
 </div>
 </div></div>
 </div>
-<script>var rbs_gallery_61aa9b2d4552c = {"version":"3.1.3","id":786,"class":"id786","roboGalleryDelay":1000,"mainContainer":"#robo_gallery_main_block_rbs_gallery_61aa9b2d4552c","loadingContainer":"#rbs_gallery_61aa9b2d4552c-block-loader","loadingContainerObj":"rbs_gallery_61aa9b2d4552c-block-loader","columnWidth":"auto","columns":3,"resolutions":[{"columnWidth":"auto","columns":3,"maxWidth":960},{"columnWidth":"auto","columns":2,"maxWidth":650},{"columnWidth":"auto","columns":1,"maxWidth":450}],"lightboxOptions":{"gallery":{"enabled":true,"tCounter":"%curr% of %total%"}},"overlayEffect":"fade","boxesToLoadStart":12,"boxesToLoad":8,"waitUntilThumbLoads":1,"LoadingWord":"Loading...","loadMoreWord":"Load More","noMoreEntriesWord":"No More Entries","horizontalSpaceBetweenBoxes":15,"verticalSpaceBetweenBoxes":15,"lazyLoad":1,"noHoverOnMobile":"false","wrapContainer":"#robo-gallery-wrap-rbs_gallery_61aa9b2d4552c"};</script>
+<script>var rbs_gallery_61ae49f0092c0 = {"version":"3.1.4","id":786,"class":"id786","roboGalleryDelay":1000,"mainContainer":"#robo_gallery_main_block_rbs_gallery_61ae49f0092c0","loadingContainer":"#rbs_gallery_61ae49f0092c0-block-loader","loadingContainerObj":"rbs_gallery_61ae49f0092c0-block-loader","columnWidth":"auto","columns":3,"resolutions":[{"columnWidth":"auto","columns":3,"maxWidth":960},{"columnWidth":"auto","columns":2,"maxWidth":650},{"columnWidth":"auto","columns":1,"maxWidth":450}],"lightboxOptions":{"gallery":{"enabled":true,"tCounter":"%curr% of %total%"}},"overlayEffect":"fade","boxesToLoadStart":12,"boxesToLoad":8,"waitUntilThumbLoads":1,"LoadingWord":"Loading...","loadMoreWord":"Load More","noMoreEntriesWord":"No More Entries","horizontalSpaceBetweenBoxes":15,"verticalSpaceBetweenBoxes":15,"lazyLoad":1,"noHoverOnMobile":"false","wrapContainer":"#robo-gallery-wrap-rbs_gallery_61ae49f0092c0"};</script>
 
 			</div> <!-- .content -->
 
@@ -547,9 +595,9 @@ font-family: "Inter";
 		
 		<link rel="stylesheet" id="academicons-css" href="https://www.sherin.me/wp-content/plugins/teachpress/includes/academicons/css/academicons.min.css?ver=5.8.2" type="text/css" media="all">
 <link rel="stylesheet" id="font-awesome-css" href="https://www.sherin.me/wp-content/plugins/teachpress/includes/fontawesome/css/all.min.css?ver=5.8.2" type="text/css" media="all">
-<link rel="stylesheet" id="gallery-css" href="https://www.sherin.me/wp-content/plugins/robo-gallery/css/gallery.css?ver=3.1.3" type="text/css" media="all">
-<link rel="stylesheet" id="font-css" href="https://www.sherin.me/wp-content/plugins/robo-gallery/css/gallery.font.css?ver=3.1.3" type="text/css" media="all">
-<link rel="stylesheet" id="robo-gallery-dynamic-id786-css" href="https://www.sherin.me/wp-content/plugins/robo-gallery/cache/css/robo_gallery_css_id786_61a6d80a76a37.css?ver=3.1.3" type="text/css" media="all">
+<link rel="stylesheet" id="gallery-css" href="https://www.sherin.me/wp-content/plugins/robo-gallery/css/gallery.css?ver=3.1.4" type="text/css" media="all">
+<link rel="stylesheet" id="font-css" href="https://www.sherin.me/wp-content/plugins/robo-gallery/css/gallery.font.css?ver=3.1.4" type="text/css" media="all">
+<link rel="stylesheet" id="robo-gallery-dynamic-id786-css" href="https://www.sherin.me/wp-content/plugins/robo-gallery/cache/css/robo_gallery_css_id786_61a6d80a76a37.css?ver=3.1.4" type="text/css" media="all">
 <script type="text/javascript" src="https://www.sherin.me/wp-includes/js/imagesloaded.min.js?ver=4.1.4" id="imagesloaded-js"></script>
 <script type="text/javascript" src="https://www.sherin.me/wp-includes/js/masonry.min.js?ver=4.2.2" id="masonry-js"></script>
 <script type="text/javascript" src="https://www.sherin.me/wp-content/plugins/custom-layouts/assets/js/frontend/custom-layouts.js?ver=1.4.5" id="custom-layouts-js"></script>
@@ -560,7 +608,7 @@ var mcluhan_ajaxpagination = {"ajaxurl":"https:\/\/www.sherin.me\/wp-admin\/admi
 </script>
 <script type="text/javascript" src="https://www.sherin.me/wp-content/themes/mcluhan/assets/js/global.js?ver=2.0.7" id="mcluhan_global-js"></script>
 <script type="text/javascript" src="https://www.sherin.me/wp-includes/js/wp-embed.min.js?ver=5.8.2" id="wp-embed-js"></script>
-<script type="text/javascript" src="https://www.sherin.me/wp-content/plugins/robo-gallery/js/robo_gallery.js?ver=3.1.3" id="robo-gallery-js"></script>
+<script type="text/javascript" src="https://www.sherin.me/wp-content/plugins/robo-gallery/js/robo_gallery.js?ver=3.1.4" id="robo-gallery-js"></script>
 			
 	</body>
 </html>
