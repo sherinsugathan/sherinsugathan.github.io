@@ -11,11 +11,11 @@
 	<atom:link href="https://www.sherin.me/comments/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.sherin.me</link>
 	<description></description>
-	<lastBuildDate>Tue, 11 Jan 2022 11:48:42 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 05 Mar 2022 02:09:12 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.8.3</generator>
+	<generator>https://wordpress.org/?v=5.9.1</generator>
 </channel>
 </rss>

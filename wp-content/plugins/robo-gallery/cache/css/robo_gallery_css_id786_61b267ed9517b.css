@@ -1,45 +1,50 @@
+/* dsfsdf */
 .robo-gallery-wrap-id786:not(#no-robo-galery) .image-with-dimensions {
-  background-color: #fff; }
-
+  background-color: white;
+}
 .robo-gallery-wrap-id786:not(#no-robo-galery) .rbs-img-container {
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
-  border-radius: 0px; }
-
+  border-radius: 0px;
+}
 .robo-gallery-wrap-id786:not(#no-robo-galery) .thumbnail-overlay {
-  background: rgba(229, 133, 23, 0.8); }
-
+  background: rgba(229, 133, 23, 0.8);
+}
 .robo-lightbox-id786:not(#no-robo-galery) .mfp-bottom-bar .mfp-title, .robo-lightbox-id786:not(#no-robo-galery) .mfp-bottom-bar .mfp-counter {
-  color: #f3f3f3; }
-
+  color: #f3f3f3;
+}
 .robo-lightbox-id786:not(#no-robo-galery) .mfp-ready.mfp-bg {
-  background-color: rgba(11, 11, 11, 0.8); }
-
+  background-color: rgba(11, 11, 11, 0.8);
+}
 .robo-gallery-wrap-id786:not(#no-robo-galery) .rbs-img-container {
   -webkit-box-shadow: 0px 5px 7px rgba(34, 25, 25, 0.4);
   -moz-box-shadow: 0px 5px 7px rgba(34, 25, 25, 0.4);
   -o-box-shadow: 0px 5px 7px rgba(34, 25, 25, 0.4);
   -ms-box-shadow: 0px 5px 7px rgba(34, 25, 25, 0.4);
-  box-shadow: 0px 5px 7px rgba(34, 25, 25, 0.4); }
-
+  box-shadow: 0px 5px 7px rgba(34, 25, 25, 0.4);
+}
 .robo-gallery-wrap-id786:not(#no-robo-galery) .rbsZoomIcon {
   font-size: 30px;
   line-height: 100%;
-  color: #fff;
-  background: rgba(13, 130, 241, 0); }
-  .robo-gallery-wrap-id786:not(#no-robo-galery) .rbsZoomIcon:hover {
-    color: #fff; }
-  .robo-gallery-wrap-id786:not(#no-robo-galery) .rbsZoomIcon:hover {
-    background: rgba(6, 70, 130, 0); }
-
+  color: white;
+  background: rgba(13, 130, 241, 0);
+}
+.robo-gallery-wrap-id786:not(#no-robo-galery) .rbsZoomIcon:hover {
+  color: white;
+}
+.robo-gallery-wrap-id786:not(#no-robo-galery) .rbsZoomIcon:hover {
+  background: rgba(6, 70, 130, 0);
+}
 .robo-gallery-wrap-id786:not(#no-robo-galery) .rbsTitle {
   font-size: 16px;
   line-height: 100%;
-  color: #fff;
-  font-weight: bold; }
-  .robo-gallery-wrap-id786:not(#no-robo-galery) .rbsTitle:hover {
-    color: #fff; }
-
+  color: white;
+  font-weight: bold;
+}
+.robo-gallery-wrap-id786:not(#no-robo-galery) .rbsTitle:hover {
+  color: white;
+}
 .robo-gallery-wrap-id786:not(#no-robo-galery) .rbs-img-content {
   text-align: center;
-  background: #f0f8ff; }
+  background: aliceblue;
+}
